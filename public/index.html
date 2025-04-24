@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- CSS -->
+        <link href="index.css" rel="stylesheet" />
+
+        <!-- JS -->
+        <script src="index.js" defer></script>
+        <script src="dark-mode.js" defer></script>
+
+        <!-- Header Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Underdog&display=swap" rel="stylesheet"> 
+
+        <!-- Text Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googkeapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Underdog&display=swap" rel="stylesheet"> 
+
+        <title>My First Web Page</title>
+    </head>
+    <body class="">
+        <header> 
+            <nav class="nav">
+                <div class="menu">
+                    <strong>Michael Huang</strong>
+                    <a class="toggle" href="other.html">Other</a>
+                    <a class="toggle" href="">Projects</a>
+                    <a class="toggle" href="">Hobbies</a> 
+                    <a class="toggle" href="shopping.html">Shopping</a>
+                </div>  
+                <button class="menu-btn">Menu</button>
+            </nav>  
+
+            <!-- Dark Mode -->
+            <label>
+                <input id="enable-dark-mode" type="checkbox" autocomplete="off" />
+                Dark mode
+            </label>
+        </header>  
+
+        <div class="body-grid"> 
+            <div>
+                <p>
+                    <img class="profile-picture" src="images/MichaelHuang.jpeg" alt="Picture of Michael" width="200" height="200"/>
+                </p> 
+                <dl class="dl-grid">
+                    <dt>Email</dt>
+                    <dd>mhuang72@calpoly.edu</dd>
+
+                    <dt>Phone</dt>
+                    <dd>(xxx) - xxx - xxxx</dd>
+
+                    <dt>Github</dt>
+                    <dd>Placeholder</dd>
+                </dl>
+            </div> 
+
+            <div class="about-me-flex">
+                <h3>About Me</h3>
+                <p>
+                    I am a <strong>Computer Science Major</strong> at CalPoly.
+                    I like <i>turtles</i>.
+                </p>
+
+                <p>Fun facts about me:</p>
+                <ul>
+                    <li>I play games</li>
+                    <li>I am Chinese</li>
+                    <li>I was born in China</li>
+                </ul>    
+            </div>  
+
+        </div>   
+    </body>
+</html>
